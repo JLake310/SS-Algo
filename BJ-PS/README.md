@@ -144,3 +144,81 @@ K - [N과 M (9)](https://www.acmicpc.net/problem/15663)
 L - [N과 M(10)](https://www.acmicpc.net/problem/15664)
 
 ## 그래프 1
+
+A - [집합의 표현](https://www.acmicpc.net/problem/1717)
+
+B - [줄 세우기](https://www.acmicpc.net/problem/2252)
+
+C - [네트워크 연결](https://www.acmicpc.net/problem/1922)
+
+D - [LCA 2](https://www.acmicpc.net/problem/11438)
+
+E - [키 순서](https://www.acmicpc.net/problem/2458)
+
+F - [게임 개발](https://www.acmicpc.net/problem/1516)
+
+G - [교수님은 기다리지 않는다](https://www.acmicpc.net/problem/3830)
+
+H - [도로 네트워크](https://www.acmicpc.net/problem/3176)
+
+I - [두 번재로 작은 스패닝 트리](https://www.acmicpc.net/problem/1626)
+
+## 그래프 2
+
+A - [단절점](https://www.acmicpc.net/problem/11266)
+
+B - [최단경로](https://www.acmicpc.net/problem/1753)
+
+C - [타임머신](https://www.acmicpc.net/problem/11657
+
+D - [플로이드](https://www.acmicpc.net/problem/11404)
+
+E - [단절선](https://www.acmicpc.net/problem/11400)
+
+F - [할로윈 묘지](https://www.acmicpc.net/problem/3860)
+
+G - [거의 최단 경로](https://www.acmicpc.net/problem/5719)
+
+H - [K번째 최단경로 찾기](https://www.acmicpc.net/problem/1854)
+
+## 동적계획법 1
+
+A - [정수 삼각형](https://www.acmicpc.net/problem/1932)
+
+B - [구간 합 구하기 4](https://www.acmicpc.net/problem/11659)
+
+C - [구간 합 구하기 5](https://www.acmicpc.net/problem/11660)
+
+D - [계단 오르기](https://www.acmicpc.net/problem/2579)
+
+E - [가장 큰 정사각형](https://www.acmicpc.net/problem/1915)
+
+F - [행렬 곱셈 순서](https://www.acmicpc.net/problem/11049)
+
+G - [가장 긴 증가하는 부분 수열 5](https://www.acmicpc.net/problem/14003)
+
+## 동적계획법 2
+
+A - [앱](https://www.acmicpc.net/problem/7579)
+
+B - [공통 부분 문자열](https://www.acmicpc.net/problem/5582)
+
+C - [LCS 2](https://www.acmicpc.net/problem/9252)
+
+D - [제단](https://www.acmicpc.net/problem/5626)
+
+E - [전구](https://www.acmicpc.net/problem/2449)
+
+F - [카드 게임](https://www.acmicpc.net/problem/11062)
+
+G - [Dance Dance Revolution](https://www.acmicpc.net/problem/2342)
+
+H - [외판원 순회](https://www.acmicpc.net/problem/2098)
+
+I - [발전소](https://www.acmicpc.net/problem/1102)
+
+J - [경찰차](https://www.acmicpc.net/problem/2618)
+
+K - [공장](https://www.acmicpc.net/problem/7578)
+
+L - [케이크 자르기 2](https://www.acmicpc.net/problem/10714)
