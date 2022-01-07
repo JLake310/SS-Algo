@@ -20,7 +20,9 @@ Leaf노드의 첫번째 index 혹은 Leaf노드 개수 구하기
 
 1에다가 N보다 커질 때까지 2를 곱한다
 
-    for(B=1; B<N; B<<=1);
+~~~c++
+for(B=1; B<N; B<<=1);
+~~~
     
 #### 값 Update
 
@@ -29,7 +31,7 @@ Leaf노드의 첫번째 index 혹은 Leaf노드 개수 구하기
 3. 왼쪽(index2 혹은 index<<1), 오른쪽(index2+1 혹은 (index<<1)|1 ) 자식 값으로 부모 값을 갱신
 4. 2~3을 Root까지 반복 (결국 LogN에 Update 가능)
 
-```
+~~~c++
 void update(int p, int v)
 {
     p += (B-1);
@@ -39,7 +41,7 @@ void update(int p, int v)
         MinIDT[p] = min(MinIDT[p<<1], MinIDT[(p<<1)|1]);
     }
 }
-```
+~~~
 
 #### 구간 값 구하기
 
@@ -52,7 +54,7 @@ void update(int p, int v)
 7. L, R노드의 각각 부모로 이동 (L/2, R/2)
 8. L>R이 될 때까지 3~7 반복 (결국 LogN에 구간 값 구하기 가능)
 
-```
+```c++
 int lgMin(int l, int r)
 {
     l += (B-1); r += (B-1);
@@ -69,7 +71,7 @@ int lgMin(int l, int r)
 }
 ```
 
-```
+```c++
 int lgSum(int l, int r)
 {
     l += (B-1); r += (B-1);
