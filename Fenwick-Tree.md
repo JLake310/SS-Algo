@@ -16,7 +16,7 @@ Ex) 32bit 기준으로......
 
 #### 값 Update
 
-```
+~~~c++
 void update(int y, long long v)
 {
     while(y <= N)
@@ -25,11 +25,11 @@ void update(int y, long long v)
         y += (y&-y);
     }
 }
-```
+~~~
 
 #### 구간 값 구하기
 
-```
+~~~
 long long getSum(int v)
 {
     long long ret = 0;
@@ -40,4 +40,4 @@ long long getSum(int v)
     }
     return ret;
 }
-```
+~~~
