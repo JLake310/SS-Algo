@@ -86,3 +86,48 @@ P - [커피숍2](https://www.acmicpc.net/problem/1275)
 Q - [소수의 곱](https://www.acmicpc.net/problem/2014)
 
 R - [강수량](https://www.acmicpc.net/problem/2094)
+
+## 정수론
+
+A - [분수 합](https://www.acmicpc.net/problem/1735)
+
+B - [최대공약수 하나 빼기](https://www.acmicpc.net/problem/14476)
+
+C - [캔디 분배](https://www.acmicpc.net/problem/3955)
+
+D - [에라토스테네스의 체](https://www.acmicpc.net/problem/2960)
+
+E - [골드바흐의 추측](https://www.acmicpc.net/problem/6588)
+
+F - [소수의 연속합](https://www.acmicpc.net/problem/1644)
+
+G - [소인수분해](https://www.acmicpc.net/problem/11653)
+
+H - [암호제작](https://www.acmicpc.net/problem/1837)
+
+I - [최대공약수](https://www.acmicpc.net/problem/2824)
+
+J - [보이는 점의 개수](https://www.acmicpc.net/problem/2725)
+
+K - [1](https://www.acmicpc.net/problem/4375)
+
+L - [30](https://www.acmicpc.net/problem/10610)
+
+M - [수학은 너무 쉬워](https://www.acmicpc.net/problem/2904)
+
+N - [소수를 분수로](https://www.acmicpc.net/problem/5376)
+
+## 조합론
+
+A - [이항 계수 1](https://www.acmicpc.net/problem/11050)
+B - [이항 계수 2](https://www.acmicpc.net/problem/11051)
+C - [다리 놓기](https://www.acmicpc.net/problem/1010)
+D - [사전](https://www.acmicpc.net/problem/1256)
+E - [카드 놓기](https://www.acmicpc.net/problem/5568)
+F - [1학년](https://www.acmicpc.net/problem/5557)
+G - [산책](https://www.acmicpc.net/problem/5573)
+H - [출근 경로](https://www.acmicpc.net/problem/5569)
+I - [순열의 순서](https://www.acmicpc.net/problem/1722)
+J - [조약돌 꺼내기](https://www.acmicpc.net/problem/13251)
+K - [N과 M (9)](https://www.acmicpc.net/problem/15663)
+L - [N과 M(10)](https://www.acmicpc.net/problem/15664)
