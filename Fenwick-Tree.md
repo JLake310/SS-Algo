@@ -29,7 +29,7 @@ void update(int y, long long v)
 
 #### 구간 값 구하기
 
-~~~
+~~~c++
 long long getSum(int v)
 {
     long long ret = 0;
