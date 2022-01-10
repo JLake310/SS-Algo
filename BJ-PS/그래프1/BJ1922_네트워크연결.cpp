@@ -14,7 +14,7 @@ struct Data{
 	Data(int src, int dst, int w) : src(src), dst(dst), w(w){};
 	
 	bool operator<(const Data d) const{
-		return w > d.w;			// 작은 순서대로 반환
+		return w > d.w;			// 생성자, 작은 순서대로 반환
 	}
 };
 
