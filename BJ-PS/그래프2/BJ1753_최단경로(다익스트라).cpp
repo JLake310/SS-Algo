@@ -14,9 +14,9 @@ struct Data{
 	Data();
 	Data(int node, int weight):node(node), weight(weight){};
 	
-	bool operator<(const Data d) const{		// 우선순위 큐에 넣을 때만 쓰면 됨
-		return weight > d.weight;
-	}
+	bool operator<(const Data d) const{		// 
+		return weight > d.weight;		// 우선순위 큐에 넣을 때만 쓰면 됨
+	}						//
 };
 
 vector<Data> vec[MAXV+1];
