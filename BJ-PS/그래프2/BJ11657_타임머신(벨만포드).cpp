@@ -1,6 +1,7 @@
 #include <iostream>
 
 #define INF 9876543210
+#define MAXN 500
 
 using namespace std;
 
@@ -12,18 +13,15 @@ struct Data {
 
 int N, M;
 int a, b, c;
-long long dist[501];
+long long dist[MAXN+1];
 Data list[6000];
 
 int main(int argc, char** argv) {
 
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
-
-    cin >> N >> M;
+    scanf("%d %d", &N, &M);
 
     for (int i = 0; i < M; i++) {
-        cin >> a >> b >> c;
+        scanf("%d %d %d", &a, &b, &c);
         list[i] = Data(a, b, c);
     }
 
@@ -52,15 +50,15 @@ int main(int argc, char** argv) {
     }
 
     if (isCycle) {
-        cout << -1 << endl;
+        printf("-1\n");
     }
     else {
         for (int i = 2; i <= N; i++) {
             if (dist[i] == INF) {
-                cout << -1 << endl;
+                printf("-1\n");
             }
             else {
-                cout << dist[i] << endl;
+                printf("%d\n", dist[i]);
             }
         }
     }
