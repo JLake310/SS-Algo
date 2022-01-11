@@ -4,6 +4,7 @@
 #include <queue>
 
 #define INF 987654321
+#define MAXN 500
 
 using namespace std;
 
@@ -21,10 +22,10 @@ struct Data {
 int N, M;
 int S, D;
 int u, v, p;
-vector<Data> path[500];
-int dist[500];
-bool isPath[500][500];
-vector<int> par[500];
+vector<Data> path[MAXN];
+int dist[MAXN];
+bool isPath[MAXN][MAXN];
+vector<int> par[MAXN];
 
 void dijkstra(int seq) {
     priority_queue<Data> pq;
@@ -76,28 +77,28 @@ void removePath(int start, int node) {
 int main(int argc, char** argv) {
 
     while (true) {
-        scanf_s("%d %d", &N, &M);
+        scanf("%d %d", &N, &M);
 
         if (N == 0 && M == 0) break;
 
-        scanf_s("%d %d", &S, &D);
+        scanf("%d %d", &S, &D);
 
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < N; i++) {			// 초기화 
             dist[i] = INF;
             path[i].clear();
             for (int j = 0; j < N; j++) {
                 isPath[i][j] = false;
             }
         }
-
-        for (int i = 0; i < M; i++) {
-            scanf_s("%d %d %d", &u, &v, &p);
+		
+		while(M--){								// 입력 받기 
+			scanf("%d %d %d", &u, &v, &p);
             path[u].push_back(Data(v, p));
-        }
+		}
 
         dijkstra(1);
 
-        if (dist[D] == INF) {
+        if (dist[D] == INF) {					// 도착지(D)까지 가는 경로가 없음 
             printf("%d\n", -1);
             continue;
         }
@@ -110,7 +111,7 @@ int main(int argc, char** argv) {
 
         dijkstra(2);
 
-        if (dist[D] == INF) {
+        if (dist[D] == INF) {					// 도착지(D)까지 가는 경로가 없음 
             printf("%d\n", -1);
         }
         else {
