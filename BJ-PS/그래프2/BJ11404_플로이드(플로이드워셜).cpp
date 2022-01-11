@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <queue>
-#include <vector>
 
 #define MAXn 100
 #define INF 987654321
