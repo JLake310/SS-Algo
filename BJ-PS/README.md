@@ -169,7 +169,7 @@ A - [단절점](https://www.acmicpc.net/problem/11266)
 
 B - [최단경로](https://www.acmicpc.net/problem/1753)
 
-C - [타임머신](https://www.acmicpc.net/problem/11657
+C - [타임머신](https://www.acmicpc.net/problem/11657)
 
 D - [플로이드](https://www.acmicpc.net/problem/11404)
 
@@ -181,7 +181,7 @@ G - [거의 최단 경로](https://www.acmicpc.net/problem/5719)
 
 H - [K번째 최단경로 찾기](https://www.acmicpc.net/problem/1854)
 
-## 동적계획법 1
+## 동적계획법
 
 A - [정수 삼각형](https://www.acmicpc.net/problem/1932)
 
@@ -197,28 +197,26 @@ F - [행렬 곱셈 순서](https://www.acmicpc.net/problem/11049)
 
 G - [가장 긴 증가하는 부분 수열 5](https://www.acmicpc.net/problem/14003)
 
-## 동적계획법 2
+H - [앱](https://www.acmicpc.net/problem/7579)
 
-A - [앱](https://www.acmicpc.net/problem/7579)
+I - [공통 부분 문자열](https://www.acmicpc.net/problem/5582)
 
-B - [공통 부분 문자열](https://www.acmicpc.net/problem/5582)
+J - [LCS 2](https://www.acmicpc.net/problem/9252)
 
-C - [LCS 2](https://www.acmicpc.net/problem/9252)
+K - [제단](https://www.acmicpc.net/problem/5626)
 
-D - [제단](https://www.acmicpc.net/problem/5626)
+L - [전구](https://www.acmicpc.net/problem/2449)
 
-E - [전구](https://www.acmicpc.net/problem/2449)
+M - [카드 게임](https://www.acmicpc.net/problem/11062)
 
-F - [카드 게임](https://www.acmicpc.net/problem/11062)
+O - [Dance Dance Revolution](https://www.acmicpc.net/problem/2342)
 
-G - [Dance Dance Revolution](https://www.acmicpc.net/problem/2342)
+P - [외판원 순회](https://www.acmicpc.net/problem/2098)
 
-H - [외판원 순회](https://www.acmicpc.net/problem/2098)
+Q - [발전소](https://www.acmicpc.net/problem/1102)
 
-I - [발전소](https://www.acmicpc.net/problem/1102)
+R - [경찰차](https://www.acmicpc.net/problem/2618)
 
-J - [경찰차](https://www.acmicpc.net/problem/2618)
+S - [공장](https://www.acmicpc.net/problem/7578)
 
-K - [공장](https://www.acmicpc.net/problem/7578)
-
-L - [케이크 자르기 2](https://www.acmicpc.net/problem/10714)
+T - [케이크 자르기 2](https://www.acmicpc.net/problem/10714)
